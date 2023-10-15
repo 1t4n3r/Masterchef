@@ -28,9 +28,9 @@ local function fn()
     end
 
     inst:AddComponent("edible")
-    inst.components.edible.healthvalue = 15
+    inst.components.edible.healthvalue = 20
     inst.components.edible.hungervalue = 20
-    inst.components.edible.sanityvalue = 25
+    inst.components.edible.sanityvalue = 20
 
     inst:AddComponent("stackable")
     inst.components.stackable.maxsize = 10

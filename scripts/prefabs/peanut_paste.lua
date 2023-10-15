@@ -1,7 +1,7 @@
 local assets = {
-    Asset("ANIM", "anim/toast.zip"),
-    Asset("ATLAS", "images/toast.xml"),
-    Asset("IMAGE", "images/toast.tex")
+    Asset("ANIM", "anim/peanut_paste.zip"),
+    Asset("ATLAS", "images/peanut_paste.xml"),
+    Asset("IMAGE", "images/peanut_paste.tex")
 }
 
 local prefabs = {
@@ -17,8 +17,8 @@ local function fn()
 
     MakeInventoryPhysics(inst)
 
-    inst.AnimState:SetBank("toast")
-    inst.AnimState:SetBuild("toast")
+    inst.AnimState:SetBank("peanut_paste")
+    inst.AnimState:SetBuild("peanut_paste")
     inst.AnimState:PlayAnimation("idle")
 
     inst.entity:SetPristine()
@@ -43,12 +43,12 @@ local function fn()
     inst.components.perishable.onperishreplacement = "spoiled_food"
 
     inst:AddComponent("inventoryitem")
-    inst.components.inventoryitem.imagename = "toast"
-    inst.components.inventoryitem.atlasname = "images/toast.xml"
+    inst.components.inventoryitem.imagename = "peanut_paste"
+    inst.components.inventoryitem.atlasname = "images/peanut_paste.xml"
 
     MakeHauntableLaunchAndPerish(inst)
 
     return inst
 end
 
-return Prefab("toast", fn, assets, prefabs)
+return Prefab("peanut_paste", fn, assets, prefabs)

@@ -1,3 +1,5 @@
+modimport("scripts/languages/russian.lua")
+
 Assets = {
     Asset("ATLAS", "images/chocolate.xml"),
     Asset("IMAGE", "images/chocolate.tex"),
@@ -5,16 +7,24 @@ Assets = {
     --Asset("IMAGE", "images/peanut.tex"),
     --Asset("ATLAS", "images/toast.xml"),
     --Asset("IMAGE", "images/toast.tex"),
+    --Asset("ATLAS", "images/peanut_paste.xml"),
+    --Asset("IMAGE", "images/peanut_paste.tex"),
+    --Asset("ATLAS", "images/wheat.xml"),
+    --Asset("IMAGE", "images/wheat.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
-    --Asset("ANIM", "anim/toast.zip")
+    --Asset("ANIM", "anim/toast.zip"),
+    --Asset("ANIM", "anim/peanut_paste.zip"),
+    --Asset("ANIM", "anim/wheat.zip")
 }
 
 PrefabFiles = {
     "chocolate",
     "peanut",
-    "toast"
+    "toast",
+    "peanut_paste",
+    "wheat"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -94,4 +104,40 @@ WURT.TOAST = "Snack."
 WALTER.TOAST = "Snack."
 WANDA.TOAST = "Snack."
 
-modimport("scripts/languages/russian.lua")
+NAMES.PEANUT_PASTE = "Peanut paste"
+GENERIC.PEANUT_PASTE = "Snack."
+WILLOW.PEANUT_PASTE = "Snack."
+WOLFGANG.PEANUT_PASTE = "Snack."
+WENDY.PEANUT_PASTE = "Snack."
+WX78.PEANUT_PASTE = "Snack."
+WICKERBOTTOM.PEANUT_PASTE = "Snack."
+WOODIE.PEANUT_PASTE = "Snack."
+MAXWELL.PEANUT_PASTE = "Snack."
+WIGFRID.PEANUT_PASTE = "Snack."
+WEBBER.PEANUT_PASTE = "Snack."
+WINONA.PEANUT_PASTE = "Snack."
+WARLY.PEANUT_PASTE = "Snack."
+WORTOX.PEANUT_PASTE = "Snack."
+WORMWOOD.PEANUT_PASTE = "Snack."
+WURT.PEANUT_PASTE = "Snack."
+WALTER.PEANUT_PASTE = "Snack."
+WANDA.PEANUT_PASTE = "Snack."
+
+NAMES.WHEAT = "Wheat"
+GENERIC.WHEAT = "Snack."
+WILLOW.WHEAT = "Snack."
+WOLFGANG.WHEAT = "Snack."
+WENDY.WHEAT = "Snack."
+WX78.WHEAT = "Snack."
+WICKERBOTTOM.WHEAT = "Snack."
+WOODIE.WHEAT = "Snack."
+MAXWELL.WHEAT = "Snack."
+WIGFRID.WHEAT = "Snack."
+WEBBER.WHEAT = "Snack."
+WINONA.WHEAT = "Snack."
+WARLY.WHEAT = "Snack."
+WORTOX.WHEAT = "Snack."
+WORMWOOD.WHEAT = "Snack."
+WURT.WHEAT = "Snack."
+WALTER.WHEAT = "Snack."
+WANDA.WHEAT = "Snack."

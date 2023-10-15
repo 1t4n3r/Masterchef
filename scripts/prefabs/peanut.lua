@@ -1,7 +1,7 @@
 local assets = {
-    Asset("ANIM", "anim/chocolate.zip"),
-    Asset("ATLAS", "images/chocolate.xml"),
-    Asset("IMAGE", "images/chocolate.tex")
+    Asset("ANIM", "anim/peanut.zip"),
+    Asset("ATLAS", "images/peanut.xml"),
+    Asset("IMAGE", "images/peanut.tex")
 }
 
 local prefabs = {
@@ -17,8 +17,8 @@ local function fn()
 
     MakeInventoryPhysics(inst)
 
-    inst.AnimState:SetBank("chocolate")
-    inst.AnimState:SetBuild("chocolate")
+    inst.AnimState:SetBank("peanut")
+    inst.AnimState:SetBuild("peanut")
     inst.AnimState:PlayAnimation("idle")
 
     inst.entity:SetPristine()
@@ -28,23 +28,23 @@ local function fn()
     end
 
     inst:AddComponent("edible")
-    inst.components.edible.healthvalue = 0
-    inst.components.edible.hungervalue = 5
-    inst.components.edible.sanityvalue = 5
+    inst.components.edible.healthvalue = 20
+    inst.components.edible.hungervalue = 20
+    inst.components.edible.sanityvalue = 20
 
     inst:AddComponent("stackable")
-    inst.components.stackable.maxsize = 40
+    inst.components.stackable.maxsize = 10
 
     inst:AddComponent("inspectable")
 
     inst:AddComponent("perishable")
-    inst.components.perishable:SetPerishTime(9600)
+    inst.components.perishable:SetPerishTime(4800)
     inst.components.perishable:StartPerishing()
     inst.components.perishable.onperishreplacement = "spoiled_food"
 
     inst:AddComponent("inventoryitem")
-    inst.components.inventoryitem.imagename = "chocolate"
-    inst.components.inventoryitem.atlasname = "images/chocolate.xml"
+    inst.components.inventoryitem.imagename = "peanut"
+    inst.components.inventoryitem.atlasname = "images/peanut.xml"
 
     MakeHauntableLaunchAndPerish(inst)
 
