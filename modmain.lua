@@ -94,4 +94,4 @@ WURT.TOAST = "Snack."
 WALTER.TOAST = "Snack."
 WANDA.TOAST = "Snack."
 
-modimport("scripts/translations/russian.lua")
+modimport("scripts/languages/russian.lua")
