@@ -11,12 +11,15 @@ Assets = {
     --Asset("IMAGE", "images/peanut_paste.tex"),
     --Asset("ATLAS", "images/wheat.xml"),
     --Asset("IMAGE", "images/wheat.tex"),
+    --Asset("ATLAS", "images/bread.xml"),
+    --Asset("IMAGE", "images/bread.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
     --Asset("ANIM", "anim/toast.zip"),
     --Asset("ANIM", "anim/peanut_paste.zip"),
     --Asset("ANIM", "anim/wheat.zip")
+    --Asset("ANIM", "anim/bread.zip")
 }
 
 PrefabFiles = {
@@ -24,7 +27,8 @@ PrefabFiles = {
     "peanut",
     "toast",
     "peanut_paste",
-    "wheat"
+    "wheat",
+    "bread"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -141,3 +145,22 @@ WORMWOOD.WHEAT = "Snack."
 WURT.WHEAT = "Snack."
 WALTER.WHEAT = "Snack."
 WANDA.WHEAT = "Snack."
+
+NAMES.BREAD = "Bread"
+GENERIC.BREAD = "Snack."
+WILLOW.BREAD = "Snack."
+WOLFGANG.BREAD = "Snack."
+WENDY.BREAD = "Snack."
+WX78.BREAD = "Snack."
+WICKERBOTTOM.BREAD = "Snack."
+WOODIE.BREAD = "Snack."
+MAXWELL.BREAD = "Snack."
+WIGFRID.BREAD = "Snack."
+WEBBER.BREAD = "Snack."
+WINONA.BREAD = "Snack."
+WARLY.BREAD = "Snack."
+WORTOX.BREAD = "Snack."
+WORMWOOD.BREAD = "Snack."
+WURT.BREAD = "Snack."
+WALTER.BREAD = "Snack."
+WANDA.BREAD = "Snack."
