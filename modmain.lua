@@ -19,6 +19,8 @@ Assets = {
     --Asset("IMAGE", "images/pancakes.tex"),
     --Asset("ATLAS", "images/bun.xml"),
     --Asset("IMAGE", "images/bun.tex"),
+    --Asset("ATLAS", "images/pita.xml"),
+    --Asset("IMAGE", "images/pita.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -28,7 +30,8 @@ Assets = {
     --Asset("ANIM", "anim/bread.zip"),
     --Asset("ANIM", "anim/flour.zip"),
     --Asset("ANIM", "anim/pancakes.zip"),
-    --Asset("ANIM", "anim/bun.zip")
+    --Asset("ANIM", "anim/bun.zip"),
+    --Asset("ANIM", "anim/pita.zip")
 }
 
 PrefabFiles = {
@@ -40,7 +43,8 @@ PrefabFiles = {
     "bread",
     "flour",
     "pancakes",
-    "bun"
+    "bun",
+    "pita"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -233,3 +237,22 @@ WORMWOOD.BUN = "Snack."
 WURT.BUN = "Snack."
 WALTER.BUN = "Snack."
 WANDA.BUN = "Snack."
+
+NAMES.PITA = "Pita"
+GENERIC.PITA = "Snack."
+WILLOW.PITA = "Snack."
+WOLFGANG.PITA = "Snack."
+WENDY.PITA = "Snack."
+WX78.PITA = "Snack."
+WICKERBOTTOM.PITA = "Snack."
+WOODIE.PITA = "Snack."
+MAXWELL.PITA = "Snack."
+WIGFRID.PITA = "Snack."
+WEBBER.PITA = "Snack."
+WINONA.PITA = "Snack."
+WARLY.PITA = "Snack."
+WORTOX.PITA = "Snack."
+WORMWOOD.PITA = "Snack."
+WURT.PITA = "Snack."
+WALTER.PITA = "Snack."
+WANDA.PITA = "Snack."
