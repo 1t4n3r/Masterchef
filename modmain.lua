@@ -15,6 +15,8 @@ Assets = {
     --Asset("IMAGE", "images/bread.tex"),
     --Asset("ATLAS", "images/flour.xml"),
     --Asset("IMAGE", "images/flour.tex"),
+    --Asset("ATLAS", "images/pancakes.xml"),
+    --Asset("IMAGE", "images/pancakes.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -22,7 +24,8 @@ Assets = {
     --Asset("ANIM", "anim/peanut_paste.zip"),
     --Asset("ANIM", "anim/wheat.zip"),
     --Asset("ANIM", "anim/bread.zip"),
-    --Asset("ANIM", "anim/flour.zip")
+    --Asset("ANIM", "anim/flour.zip"),
+    --Asset("ANIM", "anim/pancakes.zip")
 }
 
 PrefabFiles = {
@@ -32,7 +35,8 @@ PrefabFiles = {
     "peanut_paste",
     "wheat",
     "bread",
-    "flour"
+    "flour",
+    "pancakes"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -187,3 +191,22 @@ WORMWOOD.FLOUR = "Snack."
 WURT.FLOUR = "Snack."
 WALTER.FLOUR = "Snack."
 WANDA.FLOUR = "Snack."
+
+NAMES.PANCAKES = "Pancakes"
+GENERIC.PANCAKES = "Snack."
+WILLOW.PANCAKES = "Snack."
+WOLFGANG.PANCAKES = "Snack."
+WENDY.PANCAKES = "Snack."
+WX78.PANCAKES = "Snack."
+WICKERBOTTOM.PANCAKES = "Snack."
+WOODIE.PANCAKES = "Snack."
+MAXWELL.PANCAKES = "Snack."
+WIGFRID.PANCAKES = "Snack."
+WEBBER.PANCAKES = "Snack."
+WINONA.PANCAKES = "Snack."
+WARLY.PANCAKES = "Snack."
+WORTOX.PANCAKES = "Snack."
+WORMWOOD.PANCAKES = "Snack."
+WURT.PANCAKES = "Snack."
+WALTER.PANCAKES = "Snack."
+WANDA.PANCAKES = "Snack."
