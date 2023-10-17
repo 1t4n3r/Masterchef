@@ -21,6 +21,8 @@ Assets = {
     --Asset("IMAGE", "images/bun.tex"),
     --Asset("ATLAS", "images/pita.xml"),
     --Asset("IMAGE", "images/pita.tex"),
+    --Asset("ATLAS", "images/shawarma.xml"),
+    --Asset("IMAGE", "images/shawarma.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -31,7 +33,8 @@ Assets = {
     --Asset("ANIM", "anim/flour.zip"),
     --Asset("ANIM", "anim/pancakes.zip"),
     --Asset("ANIM", "anim/bun.zip"),
-    --Asset("ANIM", "anim/pita.zip")
+    --Asset("ANIM", "anim/pita.zip"),
+    --Asset("ANIM", "anim/shawarma.zip")
 }
 
 PrefabFiles = {
@@ -44,7 +47,8 @@ PrefabFiles = {
     "flour",
     "pancakes",
     "bun",
-    "pita"
+    "pita",
+    "shawarma"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -256,3 +260,22 @@ WORMWOOD.PITA = "Snack."
 WURT.PITA = "Snack."
 WALTER.PITA = "Snack."
 WANDA.PITA = "Snack."
+
+NAMES.SHAWARMA = "Shawarma"
+GENERIC.SHAWARMA = "Snack."
+WILLOW.SHAWARMA = "Snack."
+WOLFGANG.SHAWARMA = "Snack."
+WENDY.SHAWARMA = "Snack."
+WX78.SHAWARMA = "Snack."
+WICKERBOTTOM.SHAWARMA = "Snack."
+WOODIE.SHAWARMA = "Snack."
+MAXWELL.SHAWARMA = "Snack."
+WIGFRID.SHAWARMA = "Snack."
+WEBBER.SHAWARMA = "Snack."
+WINONA.SHAWARMA = "Snack."
+WARLY.SHAWARMA = "Snack."
+WORTOX.SHAWARMA = "Snack."
+WORMWOOD.SHAWARMA = "Snack."
+WURT.SHAWARMA = "Snack."
+WALTER.SHAWARMA = "Snack."
+WANDA.SHAWARMA = "Snack."
