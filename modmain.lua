@@ -23,6 +23,8 @@ Assets = {
     --Asset("IMAGE", "images/pita.tex"),
     --Asset("ATLAS", "images/shawarma.xml"),
     --Asset("IMAGE", "images/shawarma.tex"),
+    --Asset("ATLAS", "images/caramel.xml"),
+    --Asset("IMAGE", "images/caramel.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -34,7 +36,8 @@ Assets = {
     --Asset("ANIM", "anim/pancakes.zip"),
     --Asset("ANIM", "anim/bun.zip"),
     --Asset("ANIM", "anim/pita.zip"),
-    --Asset("ANIM", "anim/shawarma.zip")
+    --Asset("ANIM", "anim/shawarma.zip"),
+    --Asset("ANIM", "anim/caramel.zip")
 }
 
 PrefabFiles = {
@@ -48,7 +51,8 @@ PrefabFiles = {
     "pancakes",
     "bun",
     "pita",
-    "shawarma"
+    "shawarma",
+    "caramel"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -279,3 +283,22 @@ WORMWOOD.SHAWARMA = "Snack."
 WURT.SHAWARMA = "Snack."
 WALTER.SHAWARMA = "Snack."
 WANDA.SHAWARMA = "Snack."
+
+NAMES.CARAMEL = "Caramel"
+GENERIC.CARAMEL = "Snack."
+WILLOW.CARAMEL = "Snack."
+WOLFGANG.CARAMEL = "Snack."
+WENDY.CARAMEL = "Snack."
+WX78.CARAMEL = "Snack."
+WICKERBOTTOM.CARAMEL = "Snack."
+WOODIE.CARAMEL = "Snack."
+MAXWELL.CARAMEL = "Snack."
+WIGFRID.CARAMEL = "Snack."
+WEBBER.CARAMEL = "Snack."
+WINONA.CARAMEL = "Snack."
+WARLY.CARAMEL = "Snack."
+WORTOX.CARAMEL = "Snack."
+WORMWOOD.CARAMEL = "Snack."
+WURT.CARAMEL = "Snack."
+WALTER.CARAMEL = "Snack."
+WANDA.CARAMEL = "Snack."
