@@ -27,6 +27,8 @@ Assets = {
     --Asset("IMAGE", "images/caramel.tex"),
     --Asset("ATLAS", "images/cracker.xml"),
     --Asset("IMAGE", "images/cracker.tex"),
+    --Asset("ATLAS", "images/sugar.xml"),
+    --Asset("IMAGE", "images/sugar.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -40,7 +42,8 @@ Assets = {
     --Asset("ANIM", "anim/pita.zip"),
     --Asset("ANIM", "anim/shawarma.zip"),
     --Asset("ANIM", "anim/caramel.zip"),
-    --Asset("ANIM", "anim/cracker.zip")
+    --Asset("ANIM", "anim/cracker.zip"),
+    --Asset("ANIM", "anim/sugar.zip")
 }
 
 PrefabFiles = {
@@ -56,7 +59,8 @@ PrefabFiles = {
     "pita",
     "shawarma",
     "caramel",
-    "cracker"
+    "cracker",
+    "sugar"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -325,3 +329,22 @@ WORMWOOD.CRACKER = "Snack."
 WURT.CRACKER = "Snack."
 WALTER.CRACKER = "Snack."
 WANDA.CRACKER = "Snack."
+
+NAMES.SUGAR = "Sugar"
+GENERIC.SUGAR = "Snack."
+WILLOW.SUGAR = "Snack."
+WOLFGANG.SUGAR = "Snack."
+WENDY.SUGAR = "Snack."
+WX78.SUGAR = "Snack."
+WICKERBOTTOM.SUGAR = "Snack."
+WOODIE.SUGAR = "Snack."
+MAXWELL.SUGAR = "Snack."
+WIGFRID.SUGAR = "Snack."
+WEBBER.SUGAR = "Snack."
+WINONA.SUGAR = "Snack."
+WARLY.SUGAR = "Snack."
+WORTOX.SUGAR = "Snack."
+WORMWOOD.SUGAR = "Snack."
+WURT.SUGAR = "Snack."
+WALTER.SUGAR = "Snack."
+WANDA.SUGAR = "Snack."
