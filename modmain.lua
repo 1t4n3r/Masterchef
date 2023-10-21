@@ -25,6 +25,8 @@ Assets = {
     --Asset("IMAGE", "images/shawarma.tex"),
     --Asset("ATLAS", "images/caramel.xml"),
     --Asset("IMAGE", "images/caramel.tex"),
+    --Asset("ATLAS", "images/cracker.xml"),
+    --Asset("IMAGE", "images/cracker.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -37,7 +39,8 @@ Assets = {
     --Asset("ANIM", "anim/bun.zip"),
     --Asset("ANIM", "anim/pita.zip"),
     --Asset("ANIM", "anim/shawarma.zip"),
-    --Asset("ANIM", "anim/caramel.zip")
+    --Asset("ANIM", "anim/caramel.zip"),
+    --Asset("ANIM", "anim/cracker.zip")
 }
 
 PrefabFiles = {
@@ -52,7 +55,8 @@ PrefabFiles = {
     "bun",
     "pita",
     "shawarma",
-    "caramel"
+    "caramel",
+    "cracker"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -302,3 +306,22 @@ WORMWOOD.CARAMEL = "Snack."
 WURT.CARAMEL = "Snack."
 WALTER.CARAMEL = "Snack."
 WANDA.CARAMEL = "Snack."
+
+NAMES.CRACKER = "Cracker"
+GENERIC.CRACKER = "Snack."
+WILLOW.CRACKER = "Snack."
+WOLFGANG.CRACKER = "Snack."
+WENDY.CRACKER = "Snack."
+WX78.CRACKER = "Snack."
+WICKERBOTTOM.CRACKER = "Snack."
+WOODIE.CRACKER = "Snack."
+MAXWELL.CRACKER = "Snack."
+WIGFRID.CRACKER = "Snack."
+WEBBER.CRACKER = "Snack."
+WINONA.CRACKER = "Snack."
+WARLY.CRACKER = "Snack."
+WORTOX.CRACKER = "Snack."
+WORMWOOD.CRACKER = "Snack."
+WURT.CRACKER = "Snack."
+WALTER.CRACKER = "Snack."
+WANDA.CRACKER = "Snack."
