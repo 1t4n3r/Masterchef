@@ -31,6 +31,8 @@ Assets = {
     --Asset("IMAGE", "images/sugar.tex"),
     --Asset("ATLAS", "images/noodles.xml"),
     --Asset("IMAGE", "images/noodles.tex"),
+    --Asset("ATLAS", "images/omelette.xml"),
+    --Asset("IMAGE", "images/omelette.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -46,7 +48,8 @@ Assets = {
     --Asset("ANIM", "anim/caramel.zip"),
     --Asset("ANIM", "anim/cracker.zip"),
     --Asset("ANIM", "anim/sugar.zip"),
-    --Asset("ANIM", "anim/noodles.zip")
+    --Asset("ANIM", "anim/noodles.zip"),
+    --Asset("ANIM", "anim/omelette.zip")
 }
 
 PrefabFiles = {
@@ -64,7 +67,8 @@ PrefabFiles = {
     "caramel",
     "cracker",
     "sugar",
-    "noodles"
+    "noodles",
+    "omelette"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -371,3 +375,22 @@ WORMWOOD.NOODLES = "Snack."
 WURT.NOODLES = "Snack."
 WALTER.NOODLES = "Snack."
 WANDA.NOODLES = "Snack."
+
+NAMES.OMELETTE = "Omelette"
+GENERIC.OMELETTE = "Snack."
+WILLOW.OMELETTE = "Snack."
+WOLFGANG.OMELETTE = "Snack."
+WENDY.OMELETTE = "Snack."
+WX78.OMELETTE = "Snack."
+WICKERBOTTOM.OMELETTE = "Snack."
+WOODIE.OMELETTE = "Snack."
+MAXWELL.OMELETTE = "Snack."
+WIGFRID.OMELETTE = "Snack."
+WEBBER.OMELETTE = "Snack."
+WINONA.OMELETTE = "Snack."
+WARLY.OMELETTE = "Snack."
+WORTOX.OMELETTE = "Snack."
+WORMWOOD.OMELETTE = "Snack."
+WURT.OMELETTE = "Snack."
+WALTER.OMELETTE = "Snack."
+WANDA.OMELETTE = "Snack."
