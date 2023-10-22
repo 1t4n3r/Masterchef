@@ -35,6 +35,8 @@ Assets = {
     --Asset("IMAGE", "images/omelette.tex"),
     --Asset("ATLAS", "images/new_milk.xml"),
     --Asset("IMAGE", "images/new_milk.tex"),
+    --Asset("ATLAS", "images/baked_milk.xml"),
+    --Asset("IMAGE", "images/baked_milk.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -52,7 +54,8 @@ Assets = {
     --Asset("ANIM", "anim/sugar.zip"),
     --Asset("ANIM", "anim/noodles.zip"),
     --Asset("ANIM", "anim/omelette.zip"),
-    --Asset("ANIM", "anim/new_milk.zip")
+    --Asset("ANIM", "anim/new_milk.zip"),
+    --Asset("ANIM", "anim/baked_milk.zip")
 }
 
 PrefabFiles = {
@@ -72,7 +75,8 @@ PrefabFiles = {
     "sugar",
     "noodles",
     "omelette",
-    "new_milk"
+    "new_milk",
+    "baked_milk"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -417,3 +421,22 @@ WORMWOOD.NEW_MILK = "Snack."
 WURT.NEW_MILK = "Snack."
 WALTER.NEW_MILK = "Snack."
 WANDA.NEW_MILK = "Snack."
+
+NAMES.BAKED_MILK = "Baked milk"
+GENERIC.BAKED_MILK = "Snack."
+WILLOW.BAKED_MILK = "Snack."
+WOLFGANG.BAKED_MILK = "Snack."
+WENDY.BAKED_MILK = "Snack."
+WX78.BAKED_MILK = "Snack."
+WICKERBOTTOM.BAKED_MILK = "Snack."
+WOODIE.BAKED_MILK = "Snack."
+MAXWELL.BAKED_MILK = "Snack."
+WIGFRID.BAKED_MILK = "Snack."
+WEBBER.BAKED_MILK = "Snack."
+WINONA.BAKED_MILK = "Snack."
+WARLY.BAKED_MILK = "Snack."
+WORTOX.BAKED_MILK = "Snack."
+WORMWOOD.BAKED_MILK = "Snack."
+WURT.BAKED_MILK = "Snack."
+WALTER.BAKED_MILK = "Snack."
+WANDA.BAKED_MILK = "Snack."
