@@ -37,6 +37,8 @@ Assets = {
     --Asset("IMAGE", "images/new_milk.tex"),
     --Asset("ATLAS", "images/baked_milk.xml"),
     --Asset("IMAGE", "images/baked_milk.tex"),
+    --Asset("ATLAS", "images/cheese.xml"),
+    --Asset("IMAGE", "images/cheese.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -55,7 +57,8 @@ Assets = {
     --Asset("ANIM", "anim/noodles.zip"),
     --Asset("ANIM", "anim/omelette.zip"),
     --Asset("ANIM", "anim/new_milk.zip"),
-    --Asset("ANIM", "anim/baked_milk.zip")
+    --Asset("ANIM", "anim/baked_milk.zip"),
+    --Asset("ANIM", "anim/cheese.zip")
 }
 
 PrefabFiles = {
@@ -76,7 +79,8 @@ PrefabFiles = {
     "noodles",
     "omelette",
     "new_milk",
-    "baked_milk"
+    "baked_milk",
+    "cheese"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -440,3 +444,22 @@ WORMWOOD.BAKED_MILK = "Snack."
 WURT.BAKED_MILK = "Snack."
 WALTER.BAKED_MILK = "Snack."
 WANDA.BAKED_MILK = "Snack."
+
+NAMES.CHEESE = "Cheese"
+GENERIC.CHEESE = "Snack."
+WILLOW.CHEESE = "Snack."
+WOLFGANG.CHEESE = "Snack."
+WENDY.CHEESE = "Snack."
+WX78.CHEESE = "Snack."
+WICKERBOTTOM.CHEESE = "Snack."
+WOODIE.CHEESE = "Snack."
+MAXWELL.CHEESE = "Snack."
+WIGFRID.CHEESE = "Snack."
+WEBBER.CHEESE = "Snack."
+WINONA.CHEESE = "Snack."
+WARLY.CHEESE = "Snack."
+WORTOX.CHEESE = "Snack."
+WORMWOOD.CHEESE = "Snack."
+WURT.CHEESE = "Snack."
+WALTER.CHEESE = "Snack."
+WANDA.CHEESE = "Snack."
