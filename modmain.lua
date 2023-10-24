@@ -63,6 +63,8 @@ Assets = {
     --Asset("IMAGE", "images/tea.tex"),
     --Asset("ATLAS", "images/tea_bush.xml"),
     --Asset("IMAGE", "images/tea_bush.tex"),
+    --Asset("ATLAS", "images/turkish_coffee.xml"),
+    --Asset("IMAGE", "images/turkish_coffee.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -94,7 +96,8 @@ Assets = {
     --Asset("ANIM", "anim/coffee.zip"),
     --Asset("ANIM", "anim/coffee_beans.zip"),
     --Asset("ANIM", "anim/tea.zip"),
-    --Asset("ANIM", "anim/tea_bush.zip")
+    --Asset("ANIM", "anim/tea_bush.zip"),
+    --Asset("ANIM", "anim/turkish_coffee.zip")
 }
 
 PrefabFiles = {
@@ -128,7 +131,8 @@ PrefabFiles = {
     "coffee",
     "coffee_beans",
     "tea",
-    "tea_bush"
+    "tea_bush",
+    "turkish_coffee"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -739,3 +743,22 @@ WORMWOOD.TEA_BUSH = "Snack."
 WURT.TEA_BUSH = "Snack."
 WALTER.TEA_BUSH = "Snack."
 WANDA.TEA_BUSH = "Snack."
+
+NAMES.TURKISH_COFFEE = "Turkish coffee"
+GENERIC.TURKISH_COFFEE = "Snack."
+WILLOW.TURKISH_COFFEE = "Snack."
+WOLFGANG.TURKISH_COFFEE = "Snack."
+WENDY.TURKISH_COFFEE = "Snack."
+WX78.TURKISH_COFFEE = "Snack."
+WICKERBOTTOM.TURKISH_COFFEE = "Snack."
+WOODIE.TURKISH_COFFEE = "Snack."
+MAXWELL.TURKISH_COFFEE = "Snack."
+WIGFRID.TURKISH_COFFEE = "Snack."
+WEBBER.TURKISH_COFFEE = "Snack."
+WINONA.TURKISH_COFFEE = "Snack."
+WARLY.TURKISH_COFFEE = "Snack."
+WORTOX.TURKISH_COFFEE = "Snack."
+WORMWOOD.TURKISH_COFFEE = "Snack."
+WURT.TURKISH_COFFEE = "Snack."
+WALTER.TURKISH_COFFEE = "Snack."
+WANDA.TURKISH_COFFEE = "Snack."
