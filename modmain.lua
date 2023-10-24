@@ -43,6 +43,8 @@ Assets = {
     --Asset("IMAGE", "images/yogurt.tex"),
     --Asset("ATLAS", "images/condensed_milk.xml"),
     --Asset("IMAGE", "images/condensed_milk.tex"),
+    --Asset("ATLAS", "images/ryazhenka.xml"),
+    --Asset("IMAGE", "images/ryazhenka.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -64,7 +66,8 @@ Assets = {
     --Asset("ANIM", "anim/baked_milk.zip"),
     --Asset("ANIM", "anim/cheese.zip"),
     --Asset("ANIM", "anim/yogurt.zip"),
-    --Asset("ANIM", "anim/condensed_milk.zip")
+    --Asset("ANIM", "anim/condensed_milk.zip"),
+    --Asset("ANIM", "anim/ryazhenka.zip")
 }
 
 PrefabFiles = {
@@ -88,7 +91,8 @@ PrefabFiles = {
     "baked_milk",
     "cheese",
     "yogurt",
-    "condensed_milk"
+    "condensed_milk",
+    "ryazhenka"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -509,3 +513,22 @@ WORMWOOD.CONDENSED_MILK = "Snack."
 WURT.CONDENSED_MILK = "Snack."
 WALTER.CONDENSED_MILK = "Snack."
 WANDA.CONDENSED_MILK = "Snack."
+
+NAMES.RYAZHENKA = "Ryazhenka"
+GENERIC.RYAZHENKA = "Snack."
+WILLOW.RYAZHENKA = "Snack."
+WOLFGANG.RYAZHENKA = "Snack."
+WENDY.RYAZHENKA = "Snack."
+WX78.RYAZHENKA = "Snack."
+WICKERBOTTOM.RYAZHENKA = "Snack."
+WOODIE.RYAZHENKA = "Snack."
+MAXWELL.RYAZHENKA = "Snack."
+WIGFRID.RYAZHENKA = "Snack."
+WEBBER.RYAZHENKA = "Snack."
+WINONA.RYAZHENKA = "Snack."
+WARLY.RYAZHENKA = "Snack."
+WORTOX.RYAZHENKA = "Snack."
+WORMWOOD.RYAZHENKA = "Snack."
+WURT.RYAZHENKA = "Snack."
+WALTER.RYAZHENKA = "Snack."
+WANDA.RYAZHENKA = "Snack."
