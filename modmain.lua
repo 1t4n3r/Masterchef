@@ -61,6 +61,8 @@ Assets = {
     --Asset("IMAGE", "images/coffee_beans.tex"),
     --Asset("ATLAS", "images/tea.xml"),
     --Asset("IMAGE", "images/tea.tex"),
+    --Asset("ATLAS", "images/tea_bush.xml"),
+    --Asset("IMAGE", "images/tea_bush.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -91,7 +93,8 @@ Assets = {
     --Asset("ANIM", "anim/cacao_powder.zip"),
     --Asset("ANIM", "anim/coffee.zip"),
     --Asset("ANIM", "anim/coffee_beans.zip"),
-    --Asset("ANIM", "anim/tea.zip")
+    --Asset("ANIM", "anim/tea.zip"),
+    --Asset("ANIM", "anim/tea_bush.zip")
 }
 
 PrefabFiles = {
@@ -124,7 +127,8 @@ PrefabFiles = {
     "cacao_powder",
     "coffee",
     "coffee_beans",
-    "tea"
+    "tea",
+    "tea_bush"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -716,3 +720,22 @@ WORMWOOD.TEA = "Snack."
 WURT.TEA = "Snack."
 WALTER.TEA = "Snack."
 WANDA.TEA = "Snack."
+
+NAMES.TEA_BUSH = "Tea bush"
+GENERIC.TEA_BUSH = "Snack."
+WILLOW.TEA_BUSH = "Snack."
+WOLFGANG.TEA_BUSH = "Snack."
+WENDY.TEA_BUSH = "Snack."
+WX78.TEA_BUSH = "Snack."
+WICKERBOTTOM.TEA_BUSH = "Snack."
+WOODIE.TEA_BUSH = "Snack."
+MAXWELL.TEA_BUSH = "Snack."
+WIGFRID.TEA_BUSH = "Snack."
+WEBBER.TEA_BUSH = "Snack."
+WINONA.TEA_BUSH = "Snack."
+WARLY.TEA_BUSH = "Snack."
+WORTOX.TEA_BUSH = "Snack."
+WORMWOOD.TEA_BUSH = "Snack."
+WURT.TEA_BUSH = "Snack."
+WALTER.TEA_BUSH = "Snack."
+WANDA.TEA_BUSH = "Snack."
