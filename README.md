@@ -24,5 +24,5 @@ Mod Idea:
 
 Huge thanks to the following people:
 
-- Pirobite, for help with ideas
 - Lins1Vakun, for help with ideas
+- Pirobite, for help with ideas
