@@ -45,6 +45,8 @@ Assets = {
     --Asset("IMAGE", "images/condensed_milk.tex"),
     --Asset("ATLAS", "images/ryazhenka.xml"),
     --Asset("IMAGE", "images/ryazhenka.tex"),
+    --Asset("ATLAS", "images/sour_cream.xml"),
+    --Asset("IMAGE", "images/sour_cream.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -67,7 +69,8 @@ Assets = {
     --Asset("ANIM", "anim/cheese.zip"),
     --Asset("ANIM", "anim/yogurt.zip"),
     --Asset("ANIM", "anim/condensed_milk.zip"),
-    --Asset("ANIM", "anim/ryazhenka.zip")
+    --Asset("ANIM", "anim/ryazhenka.zip"),
+    --Asset("ANIM", "anim/sour_cream.zip")
 }
 
 PrefabFiles = {
@@ -92,7 +95,8 @@ PrefabFiles = {
     "cheese",
     "yogurt",
     "condensed_milk",
-    "ryazhenka"
+    "ryazhenka",
+    "sour_cream"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -532,3 +536,22 @@ WORMWOOD.RYAZHENKA = "Snack."
 WURT.RYAZHENKA = "Snack."
 WALTER.RYAZHENKA = "Snack."
 WANDA.RYAZHENKA = "Snack."
+
+NAMES.SOUR_CREAM = "Sour cream"
+GENERIC.SOUR_CREAM = "Snack."
+WILLOW.SOUR_CREAM = "Snack."
+WOLFGANG.SOUR_CREAM = "Snack."
+WENDY.SOUR_CREAM = "Snack."
+WX78.SOUR_CREAM = "Snack."
+WICKERBOTTOM.SOUR_CREAM = "Snack."
+WOODIE.SOUR_CREAM = "Snack."
+MAXWELL.SOUR_CREAM = "Snack."
+WIGFRID.SOUR_CREAM = "Snack."
+WEBBER.SOUR_CREAM = "Snack."
+WINONA.SOUR_CREAM = "Snack."
+WARLY.SOUR_CREAM = "Snack."
+WORTOX.SOUR_CREAM = "Snack."
+WORMWOOD.SOUR_CREAM = "Snack."
+WURT.SOUR_CREAM = "Snack."
+WALTER.SOUR_CREAM = "Snack."
+WANDA.SOUR_CREAM = "Snack."
