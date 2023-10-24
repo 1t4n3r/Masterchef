@@ -21,8 +21,8 @@ Text:
 Mod Idea:
 
 - Itaner
-- Lins1Vakun
 
 Huge thanks to the following people:
 
 - Pirobite, for help with ideas
+- Lins1Vakun, for help with ideas
