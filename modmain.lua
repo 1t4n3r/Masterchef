@@ -51,6 +51,8 @@ Assets = {
     --Asset("IMAGE", "images/cottage_cheese.tex"),
     --Asset("ATLAS", "images/cacao_butter.xml"),
     --Asset("IMAGE", "images/cacao_butter.tex"),
+    --Asset("ATLAS", "images/cacao.xml"),
+    --Asset("IMAGE", "images/cacao.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -76,7 +78,8 @@ Assets = {
     --Asset("ANIM", "anim/ryazhenka.zip"),
     --Asset("ANIM", "anim/sour_cream.zip"),
     --Asset("ANIM", "anim/cottage_cheese.zip"),
-    --Asset("ANIM", "anim/cacao_butter.zip")
+    --Asset("ANIM", "anim/cacao_butter.zip"),
+    --Asset("ANIM", "anim/cacao.zip")
 }
 
 PrefabFiles = {
@@ -104,7 +107,8 @@ PrefabFiles = {
     "ryazhenka",
     "sour_cream",
     "cottage_cheese",
-    "cacao_butter"
+    "cacao_butter",
+    "cacao"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -601,3 +605,22 @@ WORMWOOD.CACAO_BUTTER = "Snack."
 WURT.CACAO_BUTTER = "Snack."
 WALTER.CACAO_BUTTER = "Snack."
 WANDA.CACAO_BUTTER = "Snack."
+
+NAMES.CACAO = "Cacao"
+GENERIC.CACAO = "Snack."
+WILLOW.CACAO = "Snack."
+WOLFGANG.CACAO = "Snack."
+WENDY.CACAO = "Snack."
+WX78.CACAO = "Snack."
+WICKERBOTTOM.CACAO = "Snack."
+WOODIE.CACAO = "Snack."
+MAXWELL.CACAO = "Snack."
+WIGFRID.CACAO = "Snack."
+WEBBER.CACAO = "Snack."
+WINONA.CACAO = "Snack."
+WARLY.CACAO = "Snack."
+WORTOX.CACAO = "Snack."
+WORMWOOD.CACAO = "Snack."
+WURT.CACAO = "Snack."
+WALTER.CACAO = "Snack."
+WANDA.CACAO = "Snack."
