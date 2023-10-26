@@ -100,7 +100,11 @@ Assets = {
     --Asset("ANIM", "anim/tea.zip"),
     --Asset("ANIM", "anim/tea_bush.zip"),
     --Asset("ANIM", "anim/turkish_coffee.zip"),
-    --Asset("ANIM", "anim/cezve.zip")
+    --Asset("ANIM", "anim/cezve.zip"),
+
+    --Asset("ANIM", "anim/brazier.zip"),
+    --Asset("ANIM", "anim/brazier_coffee.zip"),
+    --Asset("ANIM", "anim/ui_brazier_4x4.zip")
 }
 
 PrefabFiles = {
@@ -136,7 +140,8 @@ PrefabFiles = {
     "tea",
     "tea_bush",
     "turkish_coffee",
-    "cezve"
+    "cezve",
+    "brazier"
 }
 
 local STRINGS = GLOBAL.STRINGS

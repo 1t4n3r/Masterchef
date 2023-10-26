@@ -1,7 +1,9 @@
+require "prefabutil"
+
 local assets = {
 	Asset("ANIM", "anim/brazier.zip"),
-    Asset("ANIM", "anim/ui_brazier_4x4.zip"),	
-	Asset("ATLAS", "images/inventoryimages/brazier.xml"),
+    Asset("ANIM", "anim/brazier_coffee.zip"),
+    Asset("ANIM", "anim/ui_brazier_4x4.zip")
 }
 
 local prefabs = {
