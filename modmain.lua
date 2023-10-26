@@ -65,6 +65,8 @@ Assets = {
     --Asset("IMAGE", "images/tea_bush.tex"),
     --Asset("ATLAS", "images/turkish_coffee.xml"),
     --Asset("IMAGE", "images/turkish_coffee.tex"),
+    --Asset("ATLAS", "images/cezve.xml"),
+    --Asset("IMAGE", "images/cezve.tex"),
 
     Asset("ANIM", "anim/chocolate.zip"),
     --Asset("ANIM", "anim/peanut.zip"),
@@ -97,7 +99,8 @@ Assets = {
     --Asset("ANIM", "anim/coffee_beans.zip"),
     --Asset("ANIM", "anim/tea.zip"),
     --Asset("ANIM", "anim/tea_bush.zip"),
-    --Asset("ANIM", "anim/turkish_coffee.zip")
+    --Asset("ANIM", "anim/turkish_coffee.zip"),
+    --Asset("ANIM", "anim/cezve.zip")
 }
 
 PrefabFiles = {
@@ -132,7 +135,8 @@ PrefabFiles = {
     "coffee_beans",
     "tea",
     "tea_bush",
-    "turkish_coffee"
+    "turkish_coffee",
+    "cezve"
 }
 
 local STRINGS = GLOBAL.STRINGS
@@ -762,3 +766,22 @@ WORMWOOD.TURKISH_COFFEE = "Snack."
 WURT.TURKISH_COFFEE = "Snack."
 WALTER.TURKISH_COFFEE = "Snack."
 WANDA.TURKISH_COFFEE = "Snack."
+
+NAMES.CEZVE = "Cezve"
+GENERIC.CEZVE = "Snack."
+WILLOW.CEZVE = "Snack."
+WOLFGANG.CEZVE = "Snack."
+WENDY.CEZVE = "Snack."
+WX78.CEZVE = "Snack."
+WICKERBOTTOM.CEZVE = "Snack."
+WOODIE.CEZVE = "Snack."
+MAXWELL.CEZVE = "Snack."
+WIGFRID.CEZVE = "Snack."
+WEBBER.CEZVE = "Snack."
+WINONA.CEZVE = "Snack."
+WARLY.CEZVE = "Snack."
+WORTOX.CEZVE = "Snack."
+WORMWOOD.CEZVE = "Snack."
+WURT.CEZVE = "Snack."
+WALTER.CEZVE = "Snack."
+WANDA.CEZVE = "Snack."
