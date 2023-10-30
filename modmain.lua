@@ -1,4 +1,4 @@
-modimport("scripts/languages/russian.lua")
+modimport("scripts/languages/ru_ru.lua")
 
 Assets = {
     Asset("ATLAS", "images/chocolate.xml"),

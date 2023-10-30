@@ -1,12 +1,12 @@
-_G=GLOBAL
-mods=_G.rawget(_G,"mods")or(function()local m={}_G.rawset(_G,"mods",m)return m end)()
+_G = GLOBAL
+mods = _G.rawget(_G,"mods") or (function()local m={}_G.rawset(_G,"mods",m)return m end)()
 rus = mods.RussianLanguagePack or mods.UniversalTranslator
 mk = rus and (rus.SelectedLanguage == "ru")
     and (rus.RegisterRussianName or rus.RegisterNameTranslation)
 
 if mk then
     local STRINGS = _G.STRINGS
-	
+
     mk("CHOCOLATE", "Шоколад")
     mk("PEANUT", "Арахис")
     mk("TOAST", "Тост")
